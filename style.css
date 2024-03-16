@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+}
+
+.drawing-area {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.time-details {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+}

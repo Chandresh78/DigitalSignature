@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Signature Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="drawing-area">
+                <canvas id="signatureCanvas" width="400" height="200"></canvas>
+                <div class="time-details" id="timeDetails"></div>
+            </div>
+            <div class="controls">
+                <div class="color-box">
+                    <label for="backgroundColor">Background Color Box</label>
+                    <input type="color" id="backgroundColor" value="#ffffff">
+                </div>
+                <div class="color-box">
+                    <label for="signatureColor">Signature Color Box</label>
+                    <input type="color" id="signatureColor" value="#000000">
+                </div>
+                <button id="clearButton">Clear</button>
+                <button id="downloadButton">Download</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
